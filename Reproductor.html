@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Reproductor de Música</title>
+    <link rel="stylesheet" href="TEMA.css">
+
+</head>
+
+<body>
+
+  <audio src="" id="audio"></audio>
+  <div class="music-player">
+     <h1 class="music-name">Song</h1>
+      <p class="artist-name">Artista</p>
+     <div class="disk"></div>
+     <div class="song-slider">
+         <input type="range" value="0" class="seek-bar">
+         <span class="current-time">00:00</span>
+         <span class="song-duration">00:00</span>
+     </div>
+
+     <div class="controls">
+         <button class="btn backward-btn"><img src="image/flecha izquierda.png"  width="30px" height="30px" alt="regresar"></button>
+           <button class="play-btn play-btn">
+              <span></span>
+              <span></span>
+           </button>
+         <button class="btn forward-btn"><img src="image/flecha derecha.png"width="30px" height="30px" alt="siguiente"></button>
+        </div> 
+
+     <div class="playlist">
+      <h2>Playlist</h2>
+      <ul class="song-list">
+        <li data-src="musics/01Thefall.mp3" data-name="The fall" data-index="0"><span>The fall</span><span>03:05</span></li>
+        <li data-src="musics/02Taunt.mp3" data-name="Taunt" data-index="0"><span>Taunt</span><span>02:30</span></li>
+        <li data-src="musics/03Oneday.mp3" data-name="One day" data-index="0"><span>One day</span><span>02:24</span></li>
+        <li data-src="musics/04CabinetMan.mp3" data-name="Cabinet man" data-index="0"><span>Cabinet man</span><span>04:22</span></li>
+        <li data-src="musics/05Touchtonetelephone.mp3" data-name="Touch-tone telephone" data-index="0"><span>Touch-tone telephone</span><span>04:42</span></li>
+        <li data-src="musics/06Agoraphobic.mp3" data-name="Agoraphobic" data-index="0"><span>Agoraphobic</span><span>02:09</span></li>
+        <li data-src="musics/07Creepervszombie.mp3" data-name="Creeper vs zombie" data-index="0"><span>Creeper vs zombie</span><span>03:34</span></li>
+        <li data-src="musics/08Lomalodeserbueno.mp3" data-name="Lo malo de ser bueno" data-index="0"><span>Lo malo de ser bueno</span><span>04:02</span></li>
+        <li data-src="musics/09Nobody" data-name="Nobody" data-index="0"><span>Nobody</span><span>03:23</span></li>
+        <li data-src="musics/10Theultimate.mp3" data-name="The ultimate showdown" data-index="0"><span>The ultimate showdown</span><span>03:33</span></li>
+        <li data-src="musics/11Crescentmoon.mp3" data-name="Crescent moon" data-index="0"><span>Crescent moon</span><span>04:00</span></li>
+        <li data-src="musics/12Dueleelamor.mp3" data-name="Duele el amor" data-index="0"><span>Duele el amor</span><span>04:33</span></li>
+        <li data-src="musics/13Oedojulianight.mp3" data-name="Oedo julia night" data-index="0"><span>oedo julia night</span><span>03:49</span></li>
+        <li data-src="musics/14Juiciodelacorrupcion.mp3" data-name="Juicio de la corrupcion" data-index="0"><span>Juicio de la corrupcion</span><span>05:03</span></li>
+        <li data-src="musics/15Judas.mp3" data-name="Judas" data-index="0"><span>Judas</span><span>03:09</span></li>
+        <li data-src="musics/16U.mp3" data-name="U" data-index="0"><span>U</span><span>04:28</span></li>
+        <li data-src="musics/17Blacksuit.mp3" data-name="Black suit" data-index="0"><span>Blacksuit</span><span>03:20</span></li>
+        <li data-src="musics/18SPY.mp3" data-name="SPY" data-index="0"><span>SPY</span><span>03:22</span></li>
+        <li data-src="musics/19growingpains.mp3" data-name="Growing pains" data-index="0"><span>Growing pains</span><span>03:41</span></li>
+        <li data-src="musics/20Dokuringo.mp3" data-name="Dokuringo" data-index="0"><span>Dokuringo</span><span>04:04</span></li>
+       </ul>
+       <audio src="" id="audio"></audio>
+    </div>
+
+  </div>
+
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+
+</body>
+
+</html>
