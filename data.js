@@ -22,7 +22,7 @@ let songs = [
     },
     {
         name: 'Cabinet man',
-        path: 'musics/04.Cabinetman.mp3',
+        path: 'musics/04.CabinetMan.mp3',
         artist: 'Lemon Demon',
         cover: 'https://i.scdn.co/image/ab67616d0000b273ae390841cf7a97bf3a59bb5d',
         
