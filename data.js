@@ -85,7 +85,7 @@ let songs = [
     },
     {
         name: 'Oedo Julia Night',
-        path: 'musics/13O.edojulianight.mp3',
+        path: 'musics/13.Oedojulianight.mp3',
         artist: 'Kaito & Hatsune Miku',
         cover: 'https://i1.sndcdn.com/artworks-000240905910-otvx2h-t500x500.jpg',
         
