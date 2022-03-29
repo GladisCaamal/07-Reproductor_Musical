@@ -101,7 +101,7 @@ let songs = [
         name: 'Judas',
         path: 'musics/15.Judas.mp3',
         artist: 'Kaito',
-        cover: 'https://static.wikia.nocookie.net/projectsekai/images/f/fd/Judas_Game_Cover.png/revision/latest?cb=20220221082126',
+        cover: 'https://64.media.tumblr.com/0880a9c54b2e7e5be0445d131a388500/1a0e286aca9d1c4e-06/s400x600/dc944fa31189380645e717e799c5dd9a1e5185a8.png',
         
     },
     {
